@@ -1,0 +1,65 @@
+.contenedor2 {
+  height: 40vh;
+  background-color: black;
+  display: grid;
+  grid-template: "footer footer footer";
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 80px;
+  width: 30%;
+}
+
+.formulario {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.formulario p {
+  color: white;
+}
+
+.formulario input {
+  padding: 5px;
+  width: 110px;
+  border-radius: 3px;
+}
+
+.bx {
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+.redes {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.input-group {
+  position: relative;
+  display: inline-block;
+}
+
+.input-group input {
+  padding-right: 100px;
+}
+
+.input-group button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+  color: white;
+  background-color: lightslategray;
+  border-radius: 3px;
+}
